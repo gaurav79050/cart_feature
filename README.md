@@ -5,8 +5,7 @@ Go to your users table in the database.
 Update the user_type field:
 Set user_type = 1 for the admin user.
 Default users have user_type = 0.
-
-# During login, append /1 to the login URL to indicate you're logging in as admin.
+During login, append /1 to the login URL to indicate you're logging in as admin.
 Ex - http://localhost:8000/login/1
 
 # For Table creation
